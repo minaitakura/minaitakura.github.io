@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+    background-color: #ddd;
+    font-size:14px;
+}
+
+span.red{
+    color:red;
+}
+
+header{
+    background-image:url("image/IMG_2209.JPG");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+#main{
+    padding:20px 0;
+    text-align: center;
+}
+
+
+
+#main h1{
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    padding:50px 0;
+    letter-spacing: 0.15em;
+    color: #fff;
+    text-shadow: 1px 1px 0px #000;
+}
+
+
+.container{
+    max-width:800px;
+    margin:-100px auto 0;
+    background-color:#fff;
+}
+
+
+section{
+    padding:30px 20px;
+}
+
+section h2{
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size:30px;
+    padding:50px 0;
+    text-align:center;
+    letter-spacing: 0.15em;
+    font-weight:bold;
+}
+
+.icon{
+    margin-top:20px;
+    width:120px;
+    height:120px;
+    border-radius:100%;
+}
+
+#work{
+    text-align:center;
+}
+
+.products{
+    padding:50px 0;
+}
+#work ul{
+    list-style:none;
+    
+}
+
+#contact .glyphicon{
+    font-size:40px;
+    color: #777;
+}
+
+.links{
+    list-style:none;
+    margin:50px auto;
+    display:table;
+}
+
+.links li{
+    display:table-cell;
+    padding: 0px 16px;
+}
+
+footer{
+    padding:20px 0;
+    font-size:93%;
+    text-align:center;
+    background-color:#ccc;
+    color:#666;
+}
+
+@media (min-width: 768px){
+.navbar-nav{
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
+}
+}  

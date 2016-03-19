@@ -4,15 +4,102 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>minaitakura Profile</title>
+    <meta name="keywords" content="板倉美奈,MinaItakura,いでみー"/>
+    <meta name="Description" content="MinaItakuraのプロフィールページです。TechAcademy課題用に作りました。"/>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
+  
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <nav class="navbar navbar-default" >
+          <div class="container-fluid">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  
+                  
+              </div>
+              
+              <div class="collapse navbar-collapse" id="nav-menu-1">
+                  <ul class="nav navbar-nav">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#work">Work</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <div id="main">
+        <h1>Mina Itakura's Portfolio</h1>
+      </div>
+    </header>
+    <section><div class="container">
+      
+        <div id="about">
+            <h2>About</h2>
+            <div class="row">
+                <div class="col-sm-3 ">
+                    <img class="icon" src="image/IMG_1795.jpg">
+                </div>
+            <div class="col-sm-9">
+                <h3>板倉　美奈</h3>
+                <p>長野県出身。Webディレクター。実は高専出身。</p>
+                <p>得意分野はアクセス解析とUI改善。技術のわかるディレクターになるべく、Ruby on Railsを修行中</p>
+                <p><a href="#contact">Contact</a>よりご連絡お願い致します。</p>
+            </div>
+            </div>
+        </div>
+        <div id="work">
+            <h2>Work</h2>
+            <div class="row">
+                <div class="col-sm-offset-2 col-sm-8">
+                    <p>今まで私がディレクターとして携わったサービスです。画像をクリックすると詳細が表示されます</p>
+                </div>
+            </div>
+            <div class="row products">
+                <ul>
+                    <li>
+                        <a href="http://www.aripo.jp" target="_blank">
+                            <img class="col-sm-3" src="image/aripo.png">
+                        </a>
+                    </li>
+                    <li><img class="col-sm-3" src="image/aripo.png"></li>
+                    <li><img class="col-sm-3" src="image/aripo.png"></li>
+                    <li><img class="col-sm-3" src="image/aripo.png"></li>
+                </ul>
+                </div>
+        </div>
+        <div id="contact">
+            <h2>Contact</h2>
+            <ul class="links">
+                <li>
+                <a href="mailto:minaitakura37@gmail.com">
+                    <span class="glyphicon glyphicon-envelope"></span>
+                </a></li>
+                <li>
+                <a href="https://github.com/minaitakura"  target="_blank">Github</a></li>
+                <li><a href="https://www.facebook.com/mina.ide.3" target="_blank">
+                    <span class="glyphicon glyphicon-thumbs-up"></span>
+                </a></li>
+            </ul>
+        </div>
+      
+      </div></section>
+      <footer>
+        <p>&copy; 2015 Mina Itakura.</p>
+      </footer>
+    </div>
   </body>
 </html>
