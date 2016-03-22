@@ -30,8 +30,9 @@ header{
 
 #main h1{
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size:46px;
     padding:50px 0;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.2em;
     color: #fff;
     text-shadow: 1px 1px 0px #000;
 }
@@ -57,6 +58,10 @@ section h2{
     font-weight:bold;
 }
 
+.icon-box{
+    text-align: center;
+}
+
 .icon{
     margin-top:20px;
     width:120px;
@@ -76,7 +81,7 @@ section h2{
     
 }
 
-#contact .glyphicon{
+#contact .fa{
     font-size:40px;
     color: #777;
 }
